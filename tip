@@ -1,0 +1,15 @@
+$ makdir ~/hello-world 
+$ cd ~/hello-world    
+$ git init    
+$ touch README
+$ git add README
+$ git commit -m 'first commit'
+$ git remote add origin git@github.com:defnngj/hello-world.git
+$ git push -u origin master   
+
+$git remote addorigin git@github.com:defnngj/hello-world.git
+        - fatal: remote origin already exists
+        - solution: git remote rm origin
+$git push origin master
+        - error:failed to push som refs to.......
+        - solution: git pull origin master  ( need to get the remote first)
